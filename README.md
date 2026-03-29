@@ -24,7 +24,7 @@ Assisted in the development of the `detmodel_test.py` script to improve evaluati
 
 | Before | After |
 |--------|-------|
-| ![Predicted mask before fix](images/robotics_1.png) | ![Ground truth after fix](images/robotics_2.png) |
+| ![Predicted mask before fix](images/Marine_Robotics/robotics_1.png) | ![Ground truth after fix](images/Marine_Robotics/robotics_2.png) |
 
 ### Mapping Update
 
@@ -32,8 +32,8 @@ Researched and evaluated visual SLAM architectures to incorporate mapping into t
 
 <table>
   <tr>
-    <td><img src="images/robotics_3.png" alt="Point cloud mapping in pool" width="400"/></td>
-    <td><img src="images/robotics_4.png" alt="Live object detection in pool" width="400"/></td>
+    <td><img src="images/Marine_Robotics/robotics_3.png" alt="Point cloud mapping in pool" width="400"/></td>
+    <td><img src="images/Marine_Robotics/robotics_4.png" alt="Live object detection in pool" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Point cloud mapping output during pool testing</em></td>
@@ -56,13 +56,13 @@ A full-stack geospatial application built for Environment Canada's Coastal Predi
 
 Users can create a hazard polygon by entering event details, plotting boundary points on an interactive map, and saving the record to the server for persistent access.
 
-![Weather Hazard Tracker interface](images/hazard_1.png)
+![Weather Hazard Tracker interface](images/Hazard_Tracker/hazard_1.png)
 
 <table>
   <tr>
-    <td><img src="images/hazard_2.png" alt="Enter hazard info" width="250"/></td>
-    <td><img src="images/hazard_3.png" alt="Edit hazard pane" width="250"/></td>
-    <td><img src="images/hazard_4.png" alt="Create hazard pane" width="250"/></td>
+    <td><img src="images/Hazard_Tracker/hazard_2.png" alt="Enter hazard info" width="250"/></td>
+    <td><img src="images/Hazard_Tracker/hazard_3.png" alt="Edit hazard pane" width="250"/></td>
+    <td><img src="images/Hazard_Tracker/hazard_4.png" alt="Create hazard pane" width="250"/></td>
   </tr>
   <tr>
     <td align="center"><em>1. Enter event info</em></td>
@@ -83,12 +83,12 @@ Users can create a hazard polygon by entering event details, plotting boundary p
 
 A full-stack movie review platform developed as a term-long Software Engineering course project. Built with a FastAPI backend and Next.js frontend, with a focus on clean architecture, automated testing, and containerized deployment.
 
-![Movie review website landing page](images/movie_1.png)
+![Movie review website landing page](images/Movie_Review/movie_1.png)
 
 <table>
   <tr>
-    <td><img src="images/movie_2.png" alt="Backend architecture" width="400"/></td>
-    <td><img src="images/movie_3.png" alt="Unit and integration tests" width="400"/></td>
+    <td><img src="images/Movie_Review/movie_2.png" alt="Backend architecture" width="400"/></td>
+    <td><img src="images/Movie_Review/movie_3.png" alt="Unit and integration tests" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Backend project architecture</em></td>
@@ -109,12 +109,12 @@ A full-stack movie review platform developed as a term-long Software Engineering
 
 A full-featured e-commerce platform developed for a Database Systems course, modelled after a standard online grocery experience. Built with a Node.js/Express backend and MySQL database, with full ACID-compliant transaction management.
 
-![Grocery store landing page](images/grocery_1.png)
+![Grocery store landing page](images/Grocery_Store/store_1.png)
 
 <table>
   <tr>
-    <td><img src="images/grocery_2.png" alt="Dockerized project" width="400"/></td>
-    <td><img src="images/grocery_3.png" alt="Project architecture" width="300"/></td>
+    <td><img src="images/Grocery_Store/store_2.png" alt="Dockerized project" width="400"/></td>
+    <td><img src="images/Grocery_Store/store_3.png" alt="Project architecture" width="300"/></td>
   </tr>
   <tr>
     <td align="center"><em>Application containerized with Docker</em></td>
@@ -139,11 +139,13 @@ A comparative spatial analysis examining how delivery mode fundamentally alters 
 **Ground-based scenario:** Used ArcGIS Pro's Location-Allocation solver with population-weighted census demand data to identify 11 optimal hub locations capturing 70% market share, competing against existing store locations.
 
 **Drone scenario:** Built a multi-criteria cost surface raster combining LiDAR-derived building heights, FAA airspace altitude ceilings, terrain elevation, slope, and power line constraints — weighted and reclassified to a 0–100 cost scale with hard no-fly masks applied post-analysis for FAA 0ft ceiling cells and NPS-restricted zones. Currently applying Least-Cost Path analysis with integrated census income and population density data to identify hub placements that maximize population coverage while minimizing flight cost across the constraint surface.
-
+<img src="images/drone_project/drone_3.png" alt="Weighted sum cost-layer" width="400"/>
+ <em>Weighted sum cost-layer</em>
 <table>
   <tr>
-    <td><img src="images/warehouse_1.png" alt="Raw candidate location data" width="400"/></td>
-    <td><img src="images/warehouse_2.png" alt="Optimized hub locations" width="400"/></td>
+    <td><img src="images/drone_project/drone_1.png" alt="Raw candidate location data" width="400"/></td>
+    <td><img src="images/drone_project/drone_2.png" alt="Optimized hub locations" width="400"/></td>
+    
   </tr>
   <tr>
     <td align="center"><em>Raw candidate and competitor store data</em></td>
@@ -164,12 +166,12 @@ A comparative spatial analysis examining how delivery mode fundamentally alters 
 
 A spatial analysis identifying optimal locations for a wildlife overpass along Highway 16 in Jasper, Alberta. The goal was to determine routes that facilitate safe animal movement while minimizing conflict with human infrastructure.
 
-Ten input rasters — including land cover, elevation, and human proximity — were reclassified to a common 1–100 resistance scale and combined into a composite surface. Least-Cost Path analysis was then applied using designated habitat patch data to identify optimal crossing corridors.
+Ten input rasters, including land cover, elevation, and human proximity, were reclassified to a common 1–100 resistance scale and combined into a composite surface. Least-Cost Path analysis was then applied using designated habitat patch data to identify optimal crossing corridors.
 
 <table>
   <tr>
-    <td><img src="images/overpass_2.png" alt="Resistance surface model" width="350"/></td>
-    <td><img src="images/overpass_1.png" alt="Final overpass proposal map" width="400"/></td>
+    <td><img src="images/Overpass_Proposal/overpass_2.png" alt="Resistance surface model" width="350"/></td>
+    <td><img src="images/Overpass_Proposal/overpass_1.png" alt="Final overpass proposal map" width="400"/></td>
   </tr>
   <tr>
     <td align="center"><em>Resistance surface model used for LCP analysis</em></td>
@@ -193,9 +195,9 @@ Human-caused fires showed wider spatial clustering than lightning-caused fires, 
 
 <table>
   <tr>
-    <td><img src="images/fire_1.png" alt="Raw fire distribution data" width="280"/></td>
-    <td><img src="images/fire_2.png" alt="Kernel density hotspot map" width="280"/></td>
-    <td><img src="images/fire_3.png" alt="Ripley's K function chart" width="350"/></td>
+    <td><img src="images/Fire_Analysis/fire_1.png" alt="Raw fire distribution data" width="280"/></td>
+    <td><img src="images/Fire_Analysis/fire_2.png" alt="Kernel density hotspot map" width="280"/></td>
+    <td><img src="images/Fire_Analysis/fire_3.png" alt="Ripley's K function chart" width="350"/></td>
   </tr>
   <tr>
     <td align="center"><em>Raw fire distribution (2008–2018)</em></td>
