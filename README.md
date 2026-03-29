@@ -1,6 +1,6 @@
 # Cain Tipton — Project Portfolio
 
-📧 caintipton2023@gmail.com &nbsp;|&nbsp; 📞 250-650-3899
+📧 caintipton2023@gmail.com &nbsp;|&nbsp;
 
 ---
 
