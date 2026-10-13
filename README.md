@@ -6,6 +6,8 @@
 
 ## Table of Contents
 
+- [Raze Defence — Real-Time Drone Detection System](#raze-defence--real-time-drone-detection-system)
+- [ROB — AlohaMini2 + XLeRobot-Pro Manipulation Platform](#rob--alohamini2--xlerobot-pro-manipulation-platform)
 - [AUV Object Detection & Mapping](#auv-object-detection--mapping)
 - [Weather Hazard Tracking Software](#weather-hazard-tracking-software)
 - [BS Movie Review Website](#bs-movie-review-website)
@@ -13,6 +15,69 @@
 - [Drone Delivery Network Optimization](#drone-delivery-network-optimization)
 - [Animal Overpass Proposal](#animal-overpass-proposal)
 - [Historic Fire Analysis of the Okanagan Valley](#historic-fire-analysis-of-the-okanagan-valley)
+
+---
+## Raze Defence — Real-Time Drone Detection System
+
+Joined Raze Defence as an ML & Computer Vision Co-op on the company's first day of operation, serving as the primary ML and software lead at an early-stage startup. Over four months, I took ambiguous, fast-changing requirements and shipped solutions across model development, data infrastructure, and software, from an early internal developer GUI to a full-stack operator web app for the real-time detection system.
+
+<table>
+  <tr>
+    <td><img src="images/Raze_Defence/raze_1.png" alt="Earlier 360-degree prototype" width="350"/></td>
+    <td><img src="images/Raze_Defence/raze_2.png" alt="Most recent product version" width="350"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>An earlier prototype aimed at a 360° target view</em></td>
+    <td align="center"><em>Most recent product version prior to departure</em></td>
+  </tr>
+</table>
+
+![RF-DETR architecture reference](images/Raze_Defence/raze_3.png)
+*RF-DETR, the real-time transformer-based detection architecture used for the system*
+
+![Developer GUI](images/Raze_Defence/raze_4.png)
+*An early version of the internal developer GUI, later evolved into the full operator web app*
+
+### Skills Demonstrated
+
+- ML and software leadership at an early-stage startup, translating ambiguous requirements into shipped solutions
+- Object detection and real-time inference (PyTorch, RF-DETR, OpenCV)
+- Data infrastructure and tooling: AWS S3 management, a SAM2-based auto-annotator, and a custom data auditing script
+- Edge deployment on NVIDIA Jetson Orin NX, validated against FLIR camera and RTX 4080 hardware
+- Full-stack development, building an operator web application on top of production detection/tracking logic
+
+---
+
+## ROB — AlohaMini2 + XLeRobot-Pro Manipulation Platform
+
+A long-term personal project fusing AlohaMini2 and XLeRobot-Pro into an at-home manipulation robot I'm calling "ROB." I upgraded the compute and perception stack, built the full hardware myself, and am now collecting data to train policies for real household tasks. The goal is to learn the hardware fundamentals of robotics while applying AI to real-world manipulation.
+
+<table>
+  <tr>
+    <td><img src="images/ROB/rob_1.png" alt="AlohaMini2 base platform" width="300"/></td>
+    <td><img src="images/ROB/rob_2.png" alt="XLeRobot-Pro compute and perception" width="300"/></td>
+    <td><img src="images/ROB/rob_3.png" alt="Combined ROB platform" width="300"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>AlohaMini2 base</em></td>
+    <td align="center"><em>XLeRobot-Pro compute/perception</em></td>
+    <td align="center"><em>Combined into ROB</em></td>
+  </tr>
+</table>
+
+![RTAB-Map world model output](images/ROB/rob_4.png)
+*Collecting teleoperated demonstrations and RGB-D data to build a world model of my home using RTAB-Map*
+
+![Hardware debugging](images/ROB/rob_5.png)
+*Fixing a broken wire snapped during assembly, part of the hands-on hardware reality of building a robot from scratch*
+
+### Skills Demonstrated
+
+- End-to-end hardware build: assembly, wiring, and electrical troubleshooting on a physical robot
+- Compute and perception upgrade integrating an NVIDIA Jetson Orin Nano, Intel RealSense D436, and wide-angle cameras
+- RGB-D visual SLAM and mapping (RTAB-Map) to build a real-time world model of the environment
+- Teleoperated demonstration data collection in preparation for imitation learning, reinforcement learning, and VLA-model policy training
+- ROS2 and PyTorch development on embedded Linux (Ubuntu)
 
 ---
 
