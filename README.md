@@ -23,20 +23,14 @@ Joined Raze Defence as an ML & Computer Vision Co-op on the company's first day 
 
 <table>
   <tr>
-    <td><img src="images/Raze_Defence/raze_1.png" alt="Earlier 360-degree prototype" width="350"/></td>
-    <td><img src="images/Raze_Defence/raze_2.png" alt="Most recent product version" width="350"/></td>
+    <td><img src="images/Raze_Defence/raze_1.jpg" alt="Earlier 360-degree prototype" width="350"/></td>
+    <td><img src="images/Raze_Defence/raze_2.gif" alt="Most recent product version" width="350"/></td>
   </tr>
   <tr>
     <td align="center"><em>An earlier prototype aimed at a 360° target view</em></td>
     <td align="center"><em>Most recent product version prior to departure</em></td>
   </tr>
 </table>
-
-![RF-DETR architecture reference](images/Raze_Defence/raze_3.png)
-*RF-DETR, the real-time transformer-based detection architecture used for the system*
-
-![Developer GUI](images/Raze_Defence/raze_4.png)
-*An early version of the internal developer GUI, later evolved into the full operator web app*
 
 ### Skills Demonstrated
 
@@ -55,8 +49,8 @@ A long-term personal project fusing AlohaMini2 and XLeRobot-Pro into an at-home 
 <table>
   <tr>
     <td><img src="images/ROB/rob_1.png" alt="AlohaMini2 base platform" width="300"/></td>
-    <td><img src="images/ROB/rob_2.png" alt="XLeRobot-Pro compute and perception" width="300"/></td>
-    <td><img src="images/ROB/rob_3.png" alt="Combined ROB platform" width="300"/></td>
+    <td><img src="images/ROB/rob_2.jpg" alt="XLeRobot-Pro compute and perception" width="300"/></td>
+    <td><img src="images/ROB/rob_3.gif" alt="Combined ROB platform" width="300"/></td>
   </tr>
   <tr>
     <td align="center"><em>AlohaMini2 base</em></td>
@@ -68,7 +62,7 @@ A long-term personal project fusing AlohaMini2 and XLeRobot-Pro into an at-home 
 ![RTAB-Map world model output](images/ROB/rob_4.png)
 *Collecting teleoperated demonstrations and RGB-D data to build a world model of my home using RTAB-Map*
 
-![Hardware debugging](images/ROB/rob_5.png)
+![Hardware debugging](images/ROB/rob_5.jpeg)
 *Fixing a broken wire snapped during assembly, part of the hands-on hardware reality of building a robot from scratch*
 
 ### Skills Demonstrated
